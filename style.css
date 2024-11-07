@@ -1,0 +1,27 @@
+.displayContainer{
+    border:solid black;
+    display:flex;
+    justify-content: space-around;
+    /*height: 50px;*/
+}
+.workContainer{
+    border:solid blue;
+    /*height: 50px;*/
+}
+.eduContainer{
+    border:solid blueviolet;
+    /*height: 50px;*/
+}
+.interestsContainer{
+    border:solid green;
+    /*height: 50px;*/
+}
+.refContainer{
+    border:solid palevioletred;
+    /*height: 50px;*/
+}
+
+.taylorContainer{
+    border:solid blue;
+    background-color: black;
+}
