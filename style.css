@@ -1,9 +1,8 @@
 @media (max-width: 1580px){
     .contentContainer{
         border:solid rgb(23, 23, 23);
-        background-color: hotpink;
+        background-color: rgb(247, 212, 212);
         border-radius: 15px 50px;
-        /*height: 1200vh;*/
         height:auto;
         margin:auto;
         display:flex;
@@ -27,9 +26,8 @@
 @media (max-width: 1380px){
     .contentContainer{
         border:solid rgb(23, 23, 23);
-        background-color: hotpink;
+        background-color: rgb(247, 212, 212);
         border-radius: 15px 50px;
-        /*height: 1200vh;*/
         height:auto;
         margin:auto;
         display:flex;
@@ -40,7 +38,6 @@
         border:solid rgb(23, 23, 23);
         border-radius: 15px 0px 0px 50px;
         width:25%;
-        /*full screen*//*width:16%;*/
     }
     .displayR{
         border:solid rgb(23, 23, 23);
@@ -52,12 +49,11 @@
     }
 }
 
-@media (max-width: 780px){
+@media (max-width: 880px){
     .contentContainer{
         border:solid rgb(23, 23, 23);
-        background-color: hotpink;
+        background-color: rgb(247, 212, 212);
         border-radius: 15px 50px;
-        /*height: 1200vh;*/
         height:auto;
         margin:auto;
         display:flex;
@@ -68,7 +64,6 @@
         border:solid rgb(23, 23, 23);
         border-radius: 15px 0px 0px 50px;
         width:33%;
-        /*full screen*//*width:16%;*/
     }
     .displayR{
         border:solid rgb(23, 23, 23);
@@ -83,9 +78,8 @@
 @media (max-width: 580px){
     .contentContainer{
         border:solid rgb(23, 23, 23);
-        background-color: hotpink;
+        background-color: rgb(247, 212, 212);
         border-radius: 15px 50px;
-        /*height: 1200vh;*/
         height:auto;
         margin:auto;
         display:flex;
@@ -93,16 +87,10 @@
         flex-direction: column-reverse;
     }
     .displayL{
-        /*margin-left:3em;
-        margin-right:0;*/
-        /*width:33%;*/
         border:none;
         width:100%;
-        /*display:none;*/
-        /*full screen*//*width:16%;*/
     }
     .displayR{
-        /*margin-left:3em;*/
         border:none;
         width:100%;
     }
@@ -117,41 +105,30 @@ body{
     background-color: black;
 }
 .aboutMeContainer{
-    /*border:solid black;*/
     padding-left:1em;
     padding-right:1em;
-    /*display:flex;
-    justify-content: space-around;*/
-    /*height: 50px;*/
 }
 .name{
     margin-top:0.5em;
     margin-bottom:0;
 }
 .title{
-    color: grey;
+    color: rgb(69, 69, 69);
     margin-top: 0;
 }
 .workContainer{
-    /*border:solid blue;*/
     padding-left:1em;
     padding-right:1em;
-    /*height: 50px;*/
 }
 .eduContainer{
-    /*border:solid blueviolet;*/
     padding-left:1em;
     padding-right:1em;
-    /*height: 50px;*/
 }
 .certsContainer{
-    /*border:solid orange;*/
     padding-left:1em;
     padding-right:1em;
-    /*height: 50px;*/
 }
 .clubsContainer{
-    /*border:solid teal;*/
     padding-left:1em;
     padding-right:1em;
 }
@@ -162,29 +139,21 @@ body{
     border-radius: 50%;
 }
 .skillsContainer{
-    /*border:solid yellow;*/
     padding-left:1em;
     padding-right:1em;
-    /*height: 50px;*/
 }
 .langContainer{
-    /*border:solid pink;*/
     padding-left:1em;
     padding-right:1em;
-    /*height: 50px;*/
 }
 .interestsContainer{
-    /*border:solid green;*/
     padding-left:1em;
     padding-right:1em;
-    /*height: 50px;*/
 }
 .refContainer{
-    /*border:solid palevioletred;*/
     padding-left:1em;
     padding-right:1em;
-    /*height: 50px;*/
-    background-color: hotpink;
+    background-color: rgb(247, 212, 212);
     border:solid rgb(23, 23, 23);
     border-radius: 15px 50px;
 }
