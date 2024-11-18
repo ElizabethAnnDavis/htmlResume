@@ -1,6 +1,90 @@
+@media (max-width: 1580px){
+    .contentContainer{
+        border:solid rgb(23, 23, 23);
+        background-color: hotpink;
+        border-radius: 15px 50px;
+        /*height: 1200vh;*/
+        height:auto;
+        margin:auto;
+        display:flex;
+        justify-content: space-between;
+    }
+    .displayL{
+        border:solid rgb(23, 23, 23);
+        border-radius: 15px 0px 0px 50px;
+        width:18%;
+    }
+    .displayR{
+        border:solid rgb(23, 23, 23);
+        border-radius: 0px 50px 15px 0px;
+        width:82%;
+    }
+    .avatarImg{
+        margin:1em;
+    }
+}
+
+@media (max-width: 1380px){
+    .contentContainer{
+        border:solid rgb(23, 23, 23);
+        background-color: hotpink;
+        border-radius: 15px 50px;
+        /*height: 1200vh;*/
+        height:auto;
+        margin:auto;
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .displayL{
+        border:solid rgb(23, 23, 23);
+        border-radius: 15px 0px 0px 50px;
+        width:25%;
+        /*full screen*//*width:16%;*/
+    }
+    .displayR{
+        border:solid rgb(23, 23, 23);
+        border-radius: 0px 50px 15px 0px;
+        width:75%;
+    }   
+    .avatarImg{
+        margin:0.5em;
+    }
+}
+
+@media (max-width: 780px){
+    .contentContainer{
+        border:solid rgb(23, 23, 23);
+        background-color: hotpink;
+        border-radius: 15px 50px;
+        /*height: 1200vh;*/
+        height:auto;
+        margin:auto;
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .displayL{
+        border:solid rgb(23, 23, 23);
+        border-radius: 15px 0px 0px 50px;
+        width:33%;
+        /*full screen*//*width:16%;*/
+    }
+    .displayR{
+        border:solid rgb(23, 23, 23);
+        border-radius: 0px 50px 15px 0px;
+        width:66%;
+    }   
+    .avatarImg{
+        margin:0;
+    }
+}
+
 @media (max-width: 580px){
     .contentContainer{
-        border:solid black;
+        border:solid rgb(23, 23, 23);
+        background-color: hotpink;
+        border-radius: 15px 50px;
         /*height: 1200vh;*/
         height:auto;
         margin:auto;
@@ -9,17 +93,17 @@
         flex-direction: column-reverse;
     }
     .displayL{
-        border:solid lime;
-        margin-left:3em;
-        margin-right:0;
+        /*margin-left:3em;
+        margin-right:0;*/
         /*width:33%;*/
+        border:none;
         width:100%;
         /*display:none;*/
         /*full screen*//*width:16%;*/
     }
     .displayR{
-        border:solid blue;
-        margin-left:3em;
+        /*margin-left:3em;*/
+        border:none;
         width:100%;
     }
     .avatarImg{
@@ -27,63 +111,10 @@
     }
 }
 
-@media (max-width: 880px){
-    .contentContainer{
-        border:solid black;
-        /*height: 1200vh;*/
-        height:auto;
-        margin:auto;
-        display:flex;
-        justify-content: space-between;
-    }
-    .displayL{
-        border:solid lime;
-        width:33%;
-        /*full screen*//*width:16%;*/
-    }
-    .displayR{
-        border:solid blue;
-        width:66%;
-    }   
-}
+/*----------------------------------------------------------------------------------*/
 
-@media (max-width: 1580px){
-    .contentContainer{
-        border:solid black;
-        /*height: 1200vh;*/
-        height:auto;
-        margin:auto;
-        display:flex;
-        justify-content: space-between;
-    }
-    .displayL{
-        border:solid lime;
-        width:16%;
-    }
-    .displayR{
-        border:solid blue;
-        width:83%;
-    }
-}
-.contentContainer{
-    border:solid black;
-    border-radius: 15px 50px;
-    /*height: 1200vh;*/
-    height:auto;
-    margin:auto;
-    display:flex;
-    justify-content: space-between;
-}
-.displayL{
-    border:solid darkgrey;
-    border-radius: 15px 0px 0px 50px;
-    width:33%;
-    /*full screen*//*width:16%;*/
-}
-.displayR{
-    border:solid darkgrey;
-    border-radius: 0px 50px 15px 0px;
-    width:66%;
+body{
+    background-color: black;
 }
 .aboutMeContainer{
     /*border:solid black;*/
@@ -127,6 +158,9 @@
 .avatarImg{
     border-radius: 15px 0px 0px 0px;
 }
+#aImg{
+    border-radius: 50%;
+}
 .skillsContainer{
     /*border:solid yellow;*/
     padding-left:1em;
@@ -150,4 +184,7 @@
     padding-left:1em;
     padding-right:1em;
     /*height: 50px;*/
+    background-color: hotpink;
+    border:solid rgb(23, 23, 23);
+    border-radius: 15px 50px;
 }
